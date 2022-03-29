@@ -72,7 +72,7 @@ window.addEventListener("load", () => {
     input.value = "";
 
     task_edit_el.addEventListener("click", () => {
-      if (true) {
+      if (task_edit_el.innerText.toLowerCase() == "edit") {
         task_input_el.removeAttribute("hidden");
         task_input_el.removeAttribute("readonly");
 
